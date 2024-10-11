@@ -1,0 +1,95 @@
+/* Alapstílusok */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Profil szekció */
+#profil {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#profil-kep {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#nev {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+/* Képességek szekció */
+#kepessegek {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#kepessegek ul {
+    list-style: none;
+    padding: 0;
+}
+
+#kepessegek li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Elérhetőségek szekció */
+#elerhetosegek {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#elerhetosegek a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#elerhetosegek a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Reszponzív Dizájn */
+@media (max-width: 600px) {
+    #profil-kep {
+        width: 100px;
+        height: 100px;
+    }
+
+    header, footer {
+        padding: 15px 0;
+    }
+
+    #kepessegek li {
+        padding: 8px;
+    }
+}
